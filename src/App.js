@@ -101,7 +101,8 @@ class App extends Component {
 
     onSelectedBoardChanged(e) {
         this.setState({
-            selectedBoard: parseInt(e.target.value)
+            selectedBoard: parseInt(e.target.value),
+            playersBoard: [[],[],[],[]]
         });
     }
 
